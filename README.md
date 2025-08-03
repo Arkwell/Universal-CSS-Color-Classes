@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository hosts a single, intentionally massive, and minimally structured CSS file: every possible 24-bit RGB color, expressed as a utility class. The naming is a **hybrid** designed to avoid selector issues while minimizing length:
+This repository hosts four single CSS files: every possible 24-bit RGB color, expressed as a utility class. The naming is a **hybrid** designed to avoid selector issues while minimizing length:
 
 - If the hex code starts with a letter (`a`–`f`), the class is `.RRGGBB{color:#RRGGBB}` (no prefix).  
 - If it starts with a digit (`0`–`9`), the class is `.cRRGGBB{color:#RRGGBB}` — the leading `c` avoids the invalid unescaped digit-leading class selector.  
