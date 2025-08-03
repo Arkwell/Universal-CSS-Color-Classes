@@ -18,7 +18,7 @@ There are **16,777,216** total lines — one for every combination of red, green
 
 ## Historical Footnote
 
-Fifty years ago, generating and materializing something like this would have been a project measured in weeks or months: constrained by limited compute, slow I/O, and manually written boilerplate. Today, after a short prompt and a few seconds of computation, the entire file was generated in under **six seconds**. That contrast — from human-hour slog to near-instant orchestration with AI assistance — is the core of why this lives here.
+Fifty years ago, generating and materializing something like this would have been a project measured in weeks or months: constrained by limited compute, slow I/O, and manually written boilerplate. Today, after a short prompt and a few seconds of computation, the entire file was generated in under **six seconds**. That contrast is the core of why this lives here.
 
 This file is less about utility and more about **progress saved and on display**. It’s a snapshot of where tooling, automation, and human+AI collaboration stand: a quiet marker of how far the human race has pushed mundane mass generation and made it trivial, even as larger ambitions around intelligence and agency continue to unfold.
 
