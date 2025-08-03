@@ -16,18 +16,6 @@ Example entries:
 
 There are **16,777,216** total lines — one for every combination of red, green, and blue in hex — for a total file size of **396,361,728 bytes (378.00 MiB)** in this hybrid form. This is not a practical stylesheet for most production uses; it exists as a **point in time artifact**.
 
-## Historical Footnote
-
-Fifty years ago, generating and materializing something like this would have been a project measured in weeks or months: constrained by limited compute, slow I/O, and manually written boilerplate. Today, after a short prompt and a few seconds of computation, the entire file was generated in under **six seconds**. That contrast is the core of why this lives here.
-
-This file is less about utility and more about **progress saved and on display**. It’s a snapshot of where tooling, automation, and human+AI collaboration stand: a quiet marker of how far the human race has pushed mundane mass generation and made it trivial, even as larger ambitions around intelligence and agency continue to unfold.
-
-## Purpose
-
-- **Timestamped proof of capability.** A concrete example of what used to be heavy and is now trivial.  
-- **Artifact for reflection.** Hosting it publicly is a way to show the gap between past effort and present ease — a small monument to accelerating tooling.  
-- **Minimal demonstration.** No framework. No dependencies. Just all colors, one per line, with smart naming to balance brevity and CSS validity.
-
 ## Generation Method
 
 The file was generated programmatically with a small script that iterates all values of red, green, and blue (0–255) and emits a line per color using the hybrid naming rule:
@@ -63,21 +51,15 @@ This hybrid approach trades a single extra character on the subset that would ot
 
 ## Usage
 
-This file is intentionally naive; it can be consumed directly by browsers or build tooling. Example usage in HTML:
+This file is intentionally naive; it can be consumed directly by browsers or build tooling.
 
-```html
-<link rel="stylesheet" href="every_color_conditional.css">
-<span class="abcdef">This text is color #abcdef</span>
-<span class="c1a2b3">This text is color #1a2b3</span>
-```
-
-Because the classes are predictable given the rules, they can be generated or referenced dynamically in client code or templating systems.
+Because the classes are predictable given the rules, they can be referenced easily and applied to all CSS elements where color applies.
 
 ## Performance & Hosting Notes
 
-- **Not optimized for delivery** as-is: ~378 MiB is large for a single CSS asset.  
+- **Not optimized for delivery** as-is: ~364 MiB total is large for four single CSS assets 
 - Consider **on-the-fly extraction**, subsetting, or serving only the needed subset if used in production.  
-- Serving this file over a CDN with aggressive compression and caching mitigates delivery cost/pain.
+- Serving these files over a CDN with aggressive compression and caching mitigates delivery cost/pain.
 
 ## Compression Recommendations
 
@@ -119,11 +101,7 @@ Generated with the assistance of modern AI tooling and a minimal script. The syn
 MIT License
 
 Copyright (c) 2025 Arkwell Agency Ltd.
-```
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 ...
-```
-
-*(Modify or strip as you see fit — the artifact itself is intended as a cultural bookmark, not a restrictive asset.)*
 ```
