@@ -14,7 +14,7 @@ Example entries:
 .c1a2b3{color:#1a2b3}       /* starts with digit, prefixed with c */
 ```
 
-There are **16,777,216** total lines — one for every combination of red, green, and blue in hex — for a total file size of **396,361,728 bytes (378.00 MiB)** in this hybrid form. This is not a practical stylesheet for most production uses; it exists as a **point in time artifact**.
+There are **16,777,216** total lines — one for every combination of red, green, and blue in hex — for a total file size of **379,584,512 bytes (378.00 MiB)** in this hybrid form.
 
 ## Generation Method
 
