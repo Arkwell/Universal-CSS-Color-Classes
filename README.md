@@ -87,10 +87,6 @@ If you want to recreate or adapt this:
 2. Modify the template if you want different CSS properties (e.g., `background-color` or `border-color` instead of `color`).  
 3. Chunk generation (e.g., by splitting on `r` or `g`) for parallelism or incremental builds.
 
-## Intent & Philosophy
-
-This is a **display** more than a tool. It’s a snapshot of an era where the friction of generating combinatorial boilerplate has been effectively erased by tooling and AI prompting. The hybrid naming encodes a small pragmatic insight — balancing strict CSS validity with minimal verbosity — while the whole artifact stands to remind, provoke, and inspire further reflection about where human effort is being reallocated in the march of progress.
-
 ## Acknowledgments
 
 Generated with the assistance of modern AI tooling and a minimal script. The synthesis of prompt + program reflects current human+machine collaboration patterns: we supply intent; processors supply scale.
