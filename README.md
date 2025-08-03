@@ -67,13 +67,13 @@ This file compresses extremely well. Suggested pipelines:
 
 - **Gzip:**  
   ```sh
-  gzip -9 every_color_conditional.css
+  gzip -9 uccc.css
   ```
   Expect a dramatic size reduction (often to single-digit MiB depending on server settings).  
 
 - **Brotli:**  
   ```sh
-  brotli --quality=11 every_color_conditional.css
+  brotli --quality=11 uccc.css
   ```
   Even better compression for modern browsers.
 
@@ -84,7 +84,7 @@ Configure your web server to serve the compressed variant with appropriate `Cont
 If you want to recreate or adapt this:
 
 1. Use the Python snippet above with the conditional prefix logic.  
-2. Modify the template if you want different CSS properties (e.g., `background-color` instead of `color`).  
+2. Modify the template if you want different CSS properties (e.g., `background-color` or `border-color` instead of `color`).  
 3. Chunk generation (e.g., by splitting on `r` or `g`) for parallelism or incremental builds.
 
 ## Intent & Philosophy
@@ -102,6 +102,6 @@ MIT License
 
 Copyright (c) 2025 Arkwell Agency Ltd.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
+Permission is hereby granted, free of charge, to any person obtaining a copy.
 ...
 ```
